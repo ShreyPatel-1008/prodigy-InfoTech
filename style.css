@@ -1,0 +1,57 @@
+styles.css
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #282c3f;
+    z-index: 1000;
+    transition: background-color 0.3s;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    display: block;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    color: #101010;
+}
+
+.content {
+    padding-top: 60px;
+}
+
+section {
+    height: 100vh;
+    padding: 20px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.navbar-scrolled {
+    background-color: #222;
+}
+
+
